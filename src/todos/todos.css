@@ -1,20 +1,55 @@
-/* .new-todo-form{
-    border: 1px solid black;
-} */
+.new-todo-form {
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px grey;
+}
 
-/* .MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root {
-    color: red;
-    background-color: bisque;
-}*/
+.new-todo-input {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 8px;
+    width: 70%;
+    outline: none;
+}
 
-/* .css-sghohy-MuiButtonBase-root-MuiButton-root :hover,
-.css-sghohy-MuiButtonBase-root-MuiButton-root :focus {
-    color: black !important;
-    background-color: white !important;
-} 
+.new-todo-button {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+    width: 20%;
+    outline: none;
+    background-color: #137a13 !important;
+}
 
-.create-todo-button :hover,
-.create-todo-button :focus{
-    color: black !important;
-    background-color: white !important;
-} */
+.todo-item-container {
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 16px;
+    position: relative;
+    box-shadow: 0 4px 8px grey;
+}
+
+.buttons-container {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+
+.completed-button {
+    display: inline-block;
+    background-color: #137a13 !important;
+}
+
+.remove-button {
+    display: inline-block;
+    background-color: #ee2222 !important;
+    margin-left: 1vh !important;
+    color: white !important;
+}

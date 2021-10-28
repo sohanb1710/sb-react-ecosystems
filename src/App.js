@@ -1,6 +1,10 @@
-import { hot } from 'react-hot-loader';
+import { hot, setConfig  } from 'react-hot-loader';
 import './App.css';
 import TodoList from './todos/todolist';
+
+setConfig({
+  showReactDomPatchNotification: false
+})
 
 function App() {
   return (
