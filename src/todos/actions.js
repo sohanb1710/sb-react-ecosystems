@@ -8,4 +8,10 @@ export const REMOVE_TODO = 'REMOVE_TODO';
 export const removeTodo = text => ({
     type: REMOVE_TODO,
     payload: { text },
-})
+});
+
+export const MARK_AS_COMPLETE_TODO = 'MARK_AS_COMPLETE_TODO';
+export const markAsCompleteTodo = text => ({
+    type: MARK_AS_COMPLETE_TODO,
+    payload: { text },
+});
